@@ -1,0 +1,10 @@
+# FInd the hypo of right angle triangle.
+
+import math
+
+height = float(input("Height of the triangle:"))
+base = float(input("Base of the triangle:"))
+
+hypotenuse = math.sqrt(pow(height, 2) + pow(base, 2))
+
+print(f"Hypotenuse={hypotenuse}")
